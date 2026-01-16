@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first Vue page</title>
+    <link rel="stylesheet" href="css/style.css?version=0.1">
+    <link rel="stylesheet" href="css/images.css">
+</head>
+<body>
+
+ 
+<h1>Personal Profile Web page </h1>
+<p>
+ 
+About Me: Von Cristan C. Francisco<br>
+Education / Achievements<br>
+ High School: Malate Catholic School<br>
+Course <br>
+ BS Information Technology - Mobile and Internet Technology APC<br>
+IT Experience<br>
+Hobbies & Interests<br>
+ I like to:<br>
+  -Gaming<br>
+  -Bing Chilling<br>
+  -Reading<br>
+Goals In Life / Dream<br>
+ I want to graduate at work to explore hobbies more.<br>
+Picture Gallery<br>
+ <img src="https://media1.tenor.com/m/hM7hZLP8hwgAAAAd/cooked-dog-meme.gif" alt="Cooked Dog" width="500" height="600">
+</p>
+ 
+<div class="container">
+  <div><img src="https://www.gifcen.com/wp-content/uploads/2021/06/meme-gif-12.gif" alt="Pooh Dancing" width="500" height="600"></div>
+  <div><img src="https://i.makeagif.com/media/1-11-2024/tdKGeg.gif" alt="The rock" width="500" height="600"></div>
+</div>
+
+<div id="app">
+  {{ message }}
+</div>
+
+<div id="app2">
+
+  <div>
+    <img v-for="x in manyFoods" v-bind:src="x">
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<script src="js/vue.js"></script>
+<script src="js/images.js"></script>
+
+</body>
+</html>
