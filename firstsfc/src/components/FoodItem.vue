@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>{{name}}</h2>
+        <h2>{{ name }}</h2>
         <p>{{ message }}</p>
     </div>
 </template>
@@ -12,7 +12,9 @@ export default {
             name: 'Apples',
             message: 'I like apples'
         }
-    };
+    }
 }
 </script>
-<style> </style>
+
+<style>
+</style>
